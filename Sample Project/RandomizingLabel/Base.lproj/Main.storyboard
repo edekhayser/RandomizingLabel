@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RandomizingLabel" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lTX-Bl-VbN" customClass="RandomizingLabel" customModule="RandomizingLabel" customModuleProvider="target">
+                                <rect key="frame" x="525" y="60" width="55" height="21"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="finalText" value="Hello World"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RAi-8Y-fDY" customClass="RandomizingLabel" customModule="RandomizingLabel" customModuleProvider="target">
+                                <rect key="frame" x="525" y="161" width="55" height="21"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="finalText" value="Hello World"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Settles in on final string:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="kMF-dQ-eQU">
+                                <rect key="frame" x="20" y="28" width="560" height="21"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Randomizes forever:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="l5z-P0-DYC">
+                                <rect key="frame" x="20" y="129" width="560" height="21"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Randomizes until you stop it:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="CXZ-ch-b3w">
+                                <rect key="frame" x="20" y="237" width="560" height="21"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMp-Ss-RaH" customClass="RandomizingLabel" customModule="RandomizingLabel" customModuleProvider="target">
+                                <rect key="frame" x="525" y="269" width="55" height="21"/>
+                                <fontDescription key="fontDescription" name="Menlo-Regular" family="Menlo" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="finalText" value="Hello World"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="WYI-Ax-j9N">
+                                <rect key="frame" x="0.0" y="552" width="600" height="29"/>
+                                <segments>
+                                    <segment title="ABCabc123"/>
+                                    <segment title="ABC123"/>
+                                    <segment title="ABCabc"/>
+                                    <segment title="ABC"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentDidChange:" destination="BYZ-38-t0r" eventType="valueChanged" id="IID-gl-56R"/>
+                                </connections>
+                            </segmentedControl>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6bT-Fh-jEh">
+                                <rect key="frame" x="20" y="265" width="32" height="30"/>
+                                <state key="normal" title="Stop"/>
+                                <connections>
+                                    <action selector="buttonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ESH-1n-sdo"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="RAi-8Y-fDY" secondAttribute="trailing" constant="20" id="07Y-R3-jQE"/>
+                            <constraint firstItem="6bT-Fh-jEh" firstAttribute="centerY" secondItem="aMp-Ss-RaH" secondAttribute="centerY" id="1nx-h4-sH0"/>
+                            <constraint firstItem="l5z-P0-DYC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="2CD-Kl-iU7"/>
+                            <constraint firstAttribute="trailing" secondItem="l5z-P0-DYC" secondAttribute="trailing" constant="20" id="2sG-s7-SDT"/>
+                            <constraint firstItem="aMp-Ss-RaH" firstAttribute="top" secondItem="RAi-8Y-fDY" secondAttribute="bottom" constant="87" id="6EI-9M-gaT"/>
+                            <constraint firstItem="6bT-Fh-jEh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="84c-vd-3YF"/>
+                            <constraint firstAttribute="trailing" secondItem="kMF-dQ-eQU" secondAttribute="trailing" constant="20" id="E2c-hO-AyO"/>
+                            <constraint firstItem="CXZ-ch-b3w" firstAttribute="top" secondItem="l5z-P0-DYC" secondAttribute="bottom" constant="87" id="Ekk-8n-ALf"/>
+                            <constraint firstItem="lTX-Bl-VbN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HUz-9j-ENn"/>
+                            <constraint firstAttribute="trailing" secondItem="CXZ-ch-b3w" secondAttribute="trailing" constant="20" id="HpJ-2Q-oxY"/>
+                            <constraint firstItem="6bT-Fh-jEh" firstAttribute="centerY" secondItem="CXZ-ch-b3w" secondAttribute="centerY" id="IFU-27-x6b"/>
+                            <constraint firstAttribute="trailing" secondItem="aMp-Ss-RaH" secondAttribute="trailing" constant="20" id="J5N-hd-PRa"/>
+                            <constraint firstItem="l5z-P0-DYC" firstAttribute="top" secondItem="kMF-dQ-eQU" secondAttribute="bottom" constant="80" id="Lc0-p3-2IN"/>
+                            <constraint firstItem="lTX-Bl-VbN" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="40" id="PRm-I5-xGc"/>
+                            <constraint firstItem="kMF-dQ-eQU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="RvW-8n-Oht"/>
+                            <constraint firstItem="kMF-dQ-eQU" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="Std-ZP-dKe"/>
+                            <constraint firstItem="CXZ-ch-b3w" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="TlO-Di-rGq"/>
+                            <constraint firstItem="RAi-8Y-fDY" firstAttribute="top" secondItem="lTX-Bl-VbN" secondAttribute="bottom" constant="80" id="WSP-WT-DYb"/>
+                            <constraint firstAttribute="trailing" secondItem="lTX-Bl-VbN" secondAttribute="trailing" constant="20" id="dqn-ee-q1u"/>
+                            <constraint firstItem="6bT-Fh-jEh" firstAttribute="leading" secondItem="CXZ-ch-b3w" secondAttribute="trailing" constant="15" id="eXy-yS-LJZ"/>
+                            <constraint firstAttribute="trailing" secondItem="WYI-Ax-j9N" secondAttribute="trailing" id="mG3-R0-FXo"/>
+                            <constraint firstItem="WYI-Ax-j9N" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="pSo-T5-ULs"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="WYI-Ax-j9N" secondAttribute="bottom" constant="20" id="tX7-sf-44g"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="IFU-27-x6b"/>
+                                <exclude reference="eXy-yS-LJZ"/>
+                                <exclude reference="HUz-9j-ENn"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="foreverRandomLabel" destination="RAi-8Y-fDY" id="fl7-Jh-zgd"/>
+                        <outlet property="helloWorldLabel" destination="lTX-Bl-VbN" id="wFQ-Tu-sDY"/>
+                        <outlet property="stoppableLabel" destination="aMp-Ss-RaH" id="MhY-ax-uka"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

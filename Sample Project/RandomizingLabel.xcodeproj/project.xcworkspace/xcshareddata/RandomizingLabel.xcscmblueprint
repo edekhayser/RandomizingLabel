@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "4689039159F86DB8A3F39D490B780CE3CC8ECE30",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4B4BAACA98DEB00554F1C47B8448075ADE3181B2" : 0,
+    "4689039159F86DB8A3F39D490B780CE3CC8ECE30" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0E548701-3AA5-4899-A9E6-6994C19FD9FE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4B4BAACA98DEB00554F1C47B8448075ADE3181B2" : "",
+    "4689039159F86DB8A3F39D490B780CE3CC8ECE30" : "RandomizingLabel\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "RandomizingLabel",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Sample Project\/RandomizingLabel.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/edekhayser\/RandomizingLabel.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4689039159F86DB8A3F39D490B780CE3CC8ECE30"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/edekhayser\/UITableView-RowConvenience.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4B4BAACA98DEB00554F1C47B8448075ADE3181B2"
+    }
+  ]
+}
